@@ -27,13 +27,20 @@ DOI / Reference: https://doi.org/10.24432/C52G8C
 
 METHODOLOGY:
 The project follows a structured machine learning workflow:
-- Data Overview
+- Data Overview/collection
 - Data Preprocessing
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
 - Feature Analysis
-- Model Building and Evaluation
+- Model Evaluation
 - Model Selection
+
+KEY FINDINGS:
+* Contrary to expectations, Medium_load poses a greater carbon management challenge than Maximum_load due to its high variable, unpredictable emission distribution.
+* The energy consumption follows a clear bimodal daily pattern, two distinct ~ 4 to 5 hours high-usage windows (~7:46 AM - 12:30 PM and ~ 5:13 PM - 8:00 PM) separated by a midday dip strongly suggesting double-shift industrial operations. 
+* Sunday stoodout as a near-complete shutdown day, almost all power readings are Light_Load.
+* The facility's biggest inefficiency is during Light_Load and Weekday heavy operations, where reactive power demand is disproportionately high relative to useful energy consumed.
+* Random Forest outperformed Logistic Regression, SVC, and KNN by leveraging its ensemble of decision trees to robustly capture nonlinear feature interactions that single or distance-based models could not effectively learn.
 
 TECH STACK:
 Programming Language: Python
