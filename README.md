@@ -41,6 +41,7 @@ KEY FINDINGS:
 * Sunday stoodout as a near-complete shutdown day, almost all power readings are Light_Load.
 * The facility's biggest inefficiency is during Light_Load and Weekday heavy operations, where reactive power demand is disproportionately high relative to useful energy consumed.
 * Random Forest outperformed Logistic Regression, SVC, and KNN by leveraging its ensemble of decision trees to robustly capture nonlinear feature interactions that single or distance-based models could not effectively learn.
+* The feature importance analysis indicates that NSM is the most influential predictor, contributing approximately 43.6% of the model's predictive power.
 
 TECH STACK:
 Programming Language: Python
