@@ -29,8 +29,7 @@ The project follows a structured machine learning workflow:
 - Exploratory Data Analysis (EDA)
 - Feature Engineering
 - Feature Analysis
-- Model Evaluation
-- Model Selection
+- Model Selection and Evaluation
 
 ## Key Findings
 * Contrary to expectations, Medium_load poses a greater carbon management challenge than Maximum_load due to its high variable, unpredictable emission distribution.
